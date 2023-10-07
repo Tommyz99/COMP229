@@ -1,0 +1,14 @@
+/* custom css goes here */
+/* app.css | Tommy Zhou | 301257934 | October 6th, 2023 */
+.navbar-logo {
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: aqua;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
