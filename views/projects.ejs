@@ -1,0 +1,45 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  <!--projects.ejs | Tommy Zhou | 301257934 | October 6th, 2023-->
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h6 id="date"></h6>
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <script>
+        var currentdate = new Date();
+        document.getElementById("date").innerHTML = currentdate.toString();
+      </script>
+
+    </div>
+    <div>
+      <!--Mission Statement and Welcome Message-->
+      
+      
+      <h1>Tommy Zhou</h1>
+      
+      <h2><i>Here are some projects.</i></h2>
+
+      <h3 style="text-decoration-line: underline;">Project 1: Lotto Game</h3>
+      <img src="../public/Assets/images/project1.png"/>
+      <p>Created a lotto game that would generate three lotto numbers and the user would have to try and guess the sum of the lotto numbers within 5 tries.</p>
+      <h3 style="text-decoration-line: underline;">Project 2: Bug Smasher</h3>
+      <img src="../public/Assets/images/project2.png"/>
+      <p>Created a game where the user would have to click on the bug within the specified time or else the bug would change positions. <br>
+        As the bug is incrementally caught the time left to catch the bug decreases. <br>
+        The speed at which the bug moves can be reset as well as the score for how many bugs have been caught.</p>
+      <h3 style="text-decoration-line: underline;">Project 3: Real Estate Agent Website</h3>
+      <img src="../public/Assets/images/project3.png"/>
+      <p style="margin-bottom: 10%;">Created a cover page with different listings for Realtors. <br>
+        The front page includes a description of the Realtors and some customer reviews. <br>
+        There are also different properties shown for listing and a contact page.
+      </p>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
